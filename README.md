@@ -15,6 +15,8 @@ The aim of the project was to build a functioning game using python, it's built 
 ### Outcomes
 I learned how to pay more attention to the order variables and functions are declared in. I had a few issues with calling a function that took a variable as an arguement that hadn't yet been declared. In addition to that I had to be careful about the order of if-elif-else conditions, as if a condition is true e.g `len(guess) == 1 and guess.isalpha()` the subsequent elif conditions would not be checked. In this case that meant the game would continue despite num_lives being less than 0
 
+The above was written previously to me discovering I'd done the whole project to the wrong repistory. During the process of migrating the project, I dicovered many the errors introduced to the code by me were as a result of not paying close enough attention to, or correctly follwing instructions. So that was another learning outcome of this project for me. In addition, through fixing asects of the my first version (which can be found at https://github.com/DC-Harry/test-repo.git) issues that I had resolved e.g. the game continuing despite num_lives being less than zero. In this instance it was because I didn't have a break statement after calling the `check_guess` function in `ask_for_input()` which meant the programme continued in the elif part of the `play_game` function without checking the condtions again.
+
 
 ### Instructions
 
