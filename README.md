@@ -21,16 +21,16 @@ The above was written previously to me discovering I'd done the whole project to
 ### Instructions
 
   1. intialise local repostitory
-  2. clone test-repo
+  2. clone hangman635
   3. authenticate access
-  4. execute milestone_5.py
+  4. execute hangman.py
   
    The user will be prompted for an input. If the user enters an invalid character (a number, a symbol or multiple characters), they will be prompted to try again with a single character.
    If a valid character is entered and the character is in the randomly selected word, the game will print a message informing the user that their guess was sucessful, and print a list with the guessed letter at it's position in the word and unguessed letters will be displayed as "_" The user will then be prompted to enter another letter. If the character is not in the randomly selected word, the user will be informed they guessed unsucessfully, of their remaining number of lives and prompted to guess again. before each guess the user will be displayed their previous guess attempts and if they guess a character they have already selected, they will be informed an  prompted to guess again.
 
    When all letters are guessed the user will be told that they've guessed correctly and the full word will be displayed
 ### File Structure
-The game runs from a single .py file
+The game runs from a single .py file in the hangman directory. gitignore file and readme in the top level directory of the repo
 
 ### License information
 The license for this project is GNU GENERAL PUBLIC LICENSE, allowing users to download, run, copy and modifiy the code, but requiring that it not be used for proprietery software.
